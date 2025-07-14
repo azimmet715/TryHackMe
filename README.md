@@ -1,2 +1,2 @@
-# THM
+# TryHackMe - My Progress
 TryHackMe
