@@ -1,4 +1,4 @@
-# Introduction Rooms
+# Introduction Rooms - Pre Security
 - This file contains notes from the introductory rooms on both **Offensive** and **Defensive** security concepts.
 
 ---
@@ -25,3 +25,24 @@
 ### Tools
 - Simplified Simulation of a Security Information and Event Management (SIEM)
   - Demonstrates how logs and alerts are centralized in detecting suspicious login activity
+
+=======
+
+# Network Fundamentals
+- This is to show completion of the Network Fundamentals rooms
+
+---
+
+## Room - What is Networking?
+
+### Overview
+- Fundamentals of computer networking
+
+### Tools
+- Ping 
+  - Example *ping 192.168.1.1*
+  - Used to determine the performance of a connection between devices
+
+---
+
+## Room
