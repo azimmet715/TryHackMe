@@ -1,2 +1,2 @@
 # TryHackMe - My Progress
-TryHackMe
+I will be documenting my progress within TryHackMe to showcase my knowledge and skill set. 
