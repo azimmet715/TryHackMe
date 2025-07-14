@@ -1,4 +1,4 @@
-# Introduction Rooms - Pre Security
+# Introduction Rooms 
 - This file contains notes from the introductory rooms on both **Offensive** and **Defensive** security concepts.
 
 ---
@@ -11,9 +11,9 @@
 ### Tools 
 - gobuster: 
   - Example : *gobuster -u HTTP://link.com -w worldlist.txt dir*
-  - Free and open source directory and file enumeration tool. 
-  - Used to find hidden directories on web servers. 
-  - This tool is used in the terminal.
+  - Free and open source directory and file enumeration tool 
+  - Used to find hidden directories on web servers
+  - This tool is used in the terminal
 
 ---
 
@@ -41,7 +41,7 @@
 ### Tools
 - Ping 
   - Example *ping 192.168.1.1*
-  - Used to determine the performance of a connection between devices
+  - Used to test connectivity and determine the performance of a connection between devices 
 
 ---
 
