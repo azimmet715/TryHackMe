@@ -1,1 +1,27 @@
+# Introduction Rooms
+- This file contains notes from the introductory rooms on both **Offensive** and **Defensive** security concepts.
 
+---
+
+##  Room - Offensive Security Introduction 
+
+### Overview
+- Introduction to Offensive Security
+
+### Tools 
+- gobuster: 
+  - Example : *gobuster -u HTTP://link.com -w worldlist.txt dir*
+  - Free and open source directory and file enumeration tool. 
+  - Used to find hidden directories on web servers. 
+  - This tool is used in the terminal.
+
+---
+
+## Room - Defensive Security Introduction
+
+### Overview 
+- Introduction to Defensive Security
+
+### Tools
+- Simplified Simulation of a Security Information and Event Management (SIEM)
+  - Demonstrates how logs and alerts are centralized in detecting suspicious login activity
