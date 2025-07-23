@@ -9,7 +9,7 @@
 - Introduction to Offensive Security
 
 ### Tools 
-- gobuster: 
+- gobuster 
   - Example : *gobuster -u HTTP://link.com -w worldlist.txt dir*
   - Free and open source directory and file enumeration tool 
   - Used to find hidden directories on web servers
@@ -77,4 +77,28 @@
 # How The Web Works
 - This is to show the completion of the **How The Web Works** rooms
 
+---
+
+## Room - DNS in Detail
+
+### Overview 
+- Learned about how DNS resolves human-readable domains to IP addresses
+
+### Tools
+- nslookup
+  - used to query DNS records and test name resolution
+
+---
+
+## Room - HTTP in Detail
+
+### Overview 
+- In-depth overview of how HTTP works
+- Covered standard request methods (GET, POST, PUT, DELETE, etc.)
+- Covers communication between the client and servers
+
+### Tools
+- No direct tools used - examples were shown through simulated messages
+
+---
 ---
