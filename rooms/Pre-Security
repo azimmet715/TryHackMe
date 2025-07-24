@@ -101,4 +101,14 @@
 - No direct tools used - examples were shown through simulated messages
 
 ---
+
+## Room - How Websites Work
+
+### Overview 
+- Learned how modern websites function using HTML and JavaScript 
+- Basics of web vulnerabilities using HTML injections
+
+#tools 
+- basic HTML injection to direct the user to another website
+
 ---
