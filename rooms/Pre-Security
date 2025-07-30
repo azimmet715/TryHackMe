@@ -111,4 +111,88 @@
 #tools 
 - basic HTML injection to direct the user to another website
 
+======
+
+# Linux Fundamentals  
+This file summarizes key tools and concepts learned in the three-part Linux Fundamentals 
+
+---
+
+## Part 1 
+
+### Tools
+- `echo` – Prints text to the terminal.
+- `whoami` – Displays the current logged-in user.
+- `ls` – Lists files and directories.
+- `cd` – Changes directories.
+- `cat` – Displays file contents.
+- `pwd` – Shows the current directory.
+- `find` – Searches for files.
+- `grep` – Searches text using patterns.
+- `&`, `&&` – Runs commands in parallel or sequentially.
+- `>` – Redirects output to a file (overwrite).
+- `>>` – Redirects output to a file (append).
+
+---
+
+## Part 2 
+
+### Tools 
+- `ls -a` – Lists all files including hidden ones.
+- `--help`, `man` – Shows command help/manual.
+- `touch` – Creates new files.
+- `mkdir` – Creates new directories.
+- `cp` – Copies files or directories.
+- `mv` – Moves or renames files/directories.
+- `rm` – Deletes files or directories.
+- `file` – Determines file type.
+- `ls -l` – Lists files with detailed info.
+- `su`, `-l` – Switches user or opens login shell.
+
+### Important Directories
+- `/etc` – Configuration files.
+- `/var` – Variable data like logs.
+- `/root` – Root user’s home directory.
+- `/tmp` – Temporary files.
+
+---
+
+## Part 3 
+
+### Tools
+
+#### File Editing
+- `nano`, `vim` – Command-line text editors.
+- `ctrl + x` – Exit nano.
+- `echo`, `>`, `>>` – Create files and redirect output.
+
+#### File Transfer / Web Serving
+- `wget`, `curl` – Downloads files from the internet.
+- `scp` – Secure file copy between machines.
+- `python3 -m http.server` – Spins up a temporary web server.
+
+#### Process Management
+- `ps`, `ps aux`, `top` – Displays system processes.
+- `kill` – Sends signals to processes.
+- `SIGTERM`, `SIGKILL`, `SIGSTOP` – Termination signals.
+- `&`, `ctrl + z`, `fg` – Background and foreground process control.
+
+#### Services
+- `systemd`, `systemctl [option] [service]` – Service and system manager.
+
+#### Task Scheduling
+- `cron`, `crontab -e` – Used for scheduling tasks.
+- Cron Format: `minute hour day_of_month month day_of_week command`
+
+#### Package Management
+- `add-apt-repository`, `apt`, `dpkg`, `sudo`
+- `apt update` – Updates package lists.
+- `apt install` – Installs packages.
+- `apt remove` – Removes packages.
+
+#### Security Tools
+- `apache2` – Web server.
+- `fail2ban` – Bans IPs with too many failed login attempts.
+- `ufw` – Firewall configuration tool.
+
 ---
