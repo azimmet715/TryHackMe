@@ -1,5 +1,54 @@
 # Cyber Security 101
-This file is used to show completion of the following rooms under "Cyber Security 101"
+- This file is used to show completion of the following rooms under "Cyber Security 101"
 
+---
 
+## Room - Search Skills
 
+### Overview 
+- Learned how to effectively use search operators to perform precise reconnaissance online
+- Focused on Google search operators for finding specific information, domains, or file types
+
+### Tools 
+
+- Shodan 
+  – Search Internet-connected devices
+
+- Censys 
+  – Enumerate hosts, domains, and certificates
+
+- VirusTotal 
+  – Scan files and URLs for malware
+
+- Have I Been Pwned 
+  – Check if emails appear in data breaches
+
+- **"exact phrase"**  
+  - Use double quotes to search for an exact word or phrase  
+  - Example: `"passive reconnaissance"` returns pages containing that exact phrase
+
+- **site:**  
+  - Limits results to a specific domain
+  - Example: `site:tryhackme.com success stories` finds success stories only on TryHackMe
+
+- **-** (minus sign)  
+  - Excludes certain words or phrases from search results  
+  - Example: `pyramids -tourism` excludes tourism websites
+
+- **filetype:**  
+  - Searches for specific file types instead of web pages  
+  - Example: `filetype:ppt cyber security` finds PowerPoint presentations about cybersecurity
+
+- **CVE** 
+  – Standardized vulnerability IDs (e.g., CVE-2024-29988); maintained by MITRE
+
+- **National Vulnerability Database (NVD)** 
+  – Searchable database of CVEs and metadata
+
+- **Exploit Database** 
+  – Repository of verified exploits and PoCs
+
+- **GitHub** 
+  – Can host tools, PoCs, and exploit scripts related to CVEs
+
+===
